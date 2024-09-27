@@ -1,0 +1,181 @@
+html, body {
+ background-color: #0A010A;
+  color: white;
+  margin:0;
+  overflow-x: hidden;
+  font-family: "Open Sans", system-ui;
+  
+}
+
+.slider{
+  display:flex;
+  overflow-x:auto;
+  scroll-snap-type:x mandatory;
+  height:100vh;
+  widht:100vw;
+}
+.slide{
+  min-width:100vw;
+  display:inline-block;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  scroll-snap-align:center;
+}
+
+.principal{
+  background-image: url("fundo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  top:0;
+  left:0;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width:100%;
+  min-height:100vh;
+  position:relative;
+  flex-direction:column;
+  
+}
+
+.titulo{
+  margin-bottom: 1em;
+  wisth:600px;
+  max-width:600px;
+  margin-left:30px;
+  text-align:center;
+  font-size:30px;
+}
+
+.botao{
+  background-color: purple;
+  border-radius: 5px;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  width:80vh;
+  margin-left:50px; font-family: "Protest Guerrilla", system-ui;
+}
+
+.botao2{
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+   width:80vh;
+  margin-left:50px;
+   font-family: "Protest Guerrilla", system-ui;
+}
+
+.aviso{
+  font-size:12px;
+  color: grey; 
+  margin-left:250px;
+}
+
+.botao:hover{
+  background-color:pink;
+  color:purple;
+   font-family: "Protest Guerrilla", system-ui;
+}
+
+.botao2:hover{
+  background-color:pink;
+  color:purple;
+   font-family: "Protest Guerrilla", system-ui;
+}
+
+/* PÁGINA 2 */
+.menu{
+  max-width: 1200px;
+  margin:0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+
+.menuitem{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px grey;
+  overflow: hidden;
+}
+
+.menutitulo{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: gey;
+  text-decoration: double;
+}
+
+.menuimagem{
+  width: 150px;
+  heigth: 150px;
+  object-fit: cover;
+}
+
+.menuinfo{
+  padding: 20px;
+}
+
+.itemmenu{
+  font-size: 25px;
+  color: purple;
+}
+.descricao2{
+  font-size: 13px;
+  color: grey;
+  text-align: justify;
+}
+.preco{
+  color:rgb(233,233,12);
+  font-size: 25px;
+  font-weght: bold;
+  text-decoration: none;
+}
+
+/*PÀGINA 3*/
+
+.titulo2{
+  font-size: 45px;
+  color: red;
+  margin-bottom: 1em;
+text-align: center;
+  font-family: "Open Sans", system-ui;
+}
+.imagem2{
+  width:100%
+}
+
+.secundario{
+  align-items: center;
+  margim: 0 10em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gab:20px;
+  marginp:60px;
+}
+
+.desricao{
+  font-family: "Protest Guerrilla", system-ui;
+  text-align: center;
+  font-size:25px;
+}
